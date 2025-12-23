@@ -39,6 +39,6 @@ jobs:
 
       - name: Push Docker Image to GHCR
         run: |
-          docker push $REGISTRY/$OWNER/$IMAGE_NAME:$IMAGE_TAG
+          docker push $REGISTRY/shahanassha/$IMAGE_NAME:$IMAGE_TAG
 
 
